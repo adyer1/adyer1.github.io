@@ -6,16 +6,12 @@ main p{
     color: #006621;
 }
 
-.backto {
-    color: #1A0DAB;
-}
-
-.backto:visited {
-    color: #660099;
-}
-
 .date {
     color: #808080;
+}
+
+ol {
+    list-style-type:none
 }
 
 .desc {
@@ -26,6 +22,10 @@ main p{
     color: #4285F4;
     font-weight: bold;
     border-bottom: solid 5px;
+}
+
+.selected a {
+    color: #4285F4;
 }
 
 input[type="text"] {
@@ -86,7 +86,7 @@ nav li a, footer li a {
 
 nav li a:hover{
     color: #222222;
-} 
+}
 
     footer li a:hover {
     color: #222222 ;
@@ -105,4 +105,13 @@ h3 {
 
 p {
     margin: 1.4px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #1A0DAB;
+}
+
+footer p a:hover {
+    color: #660099;
 }
