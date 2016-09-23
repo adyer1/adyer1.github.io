@@ -1,37 +1,45 @@
-main p{
+* {
+    box-sizing: border-box;
+}
+
+align {
+    margin: 0px;
+}
+
+#aside {
+    border: solid 1px gray;
+    float: right;
+    width: 30%;
+}
+
+aside h1 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: Normal;
+}
+
+aside h4 {
+    font-family: Arial;
+    font-weight: Normal;
+    color: #777783;
+}
+
+aside p {
     font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
-.intro {
-    color: #006621;
+aside p a {
+    color: #1A0DAB;
+    text-decoration: none;
 }
 
-.date {
-    color: #808080;
+aside p a:hover {
+    text-decoration: underline;
 }
 
-ol {
-    list-style-type:none
-}
-
-.desc {
-    color: #6A6A6A;
-}
-
-.selected {
-    color: #4285F4;
-    font-weight: bold;
-    border-bottom: solid 5px;
-}
-
-.selected a {
-    color: #4285F4;
-}
-
-input[type="text"] {
-    width: 630px;
-    height: 40px;
-    border: solid 1px #D9D9D9;
+aside p a:visited {
+    color: #660099;
 }
 
 .button_add {
@@ -45,16 +53,117 @@ input[type="text"] {
     vertical-align: middle; 
 }
 
-/*.button_add:hover {
-    background-color: hover: #3B78E7;
-}*/
-
-ol a {
-    text-decoration: none;    
+.date {
+    color: #808080;
 }
 
-ol a:hover {
+.desc {
+    color: #6A6A6A;
+}
+
+#footer {
+    background-color: #F1F1F1;
+    border-top: solid 1px #E5E5E5;
+    float: left;
+    height: 20%;
+    padding-top: 20px;
+    width: 100%;
+}
+
+footer, li {
+    font-family: Arial;
+}
+    
+footer li a:hover {
+    color: #222222;
+}
+
+footer p {
+    padding-left: 48px;
+}
+
+footer p a {
+    color: #1A0DAB;
+    text-decoration: none;
+}
+
+footer p a:hover {
     text-decoration: underline;
+}
+
+footer p a:visited {
+    color: #660099;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 1.4px;
+}
+
+header img {
+    height: 44px;
+    width: 105px;
+}
+
+#headbar {
+    background-color: #F1F1F1;
+    border-bottom: solid 1px #E5E5E5;
+    display: inline-block;
+    width: 100%;
+}
+
+#images {
+    display: inline-block;
+    height: 195px;
+    width: 400px;
+}
+
+#imageone {
+    display: inline-block;
+}
+
+#imagetwo {
+    display: inline-block;
+}
+
+input[type="submit"]{
+    background: url(https://s3.amazonaws.com/pratt-web-2/google_mag_glass.png) no-repeat 12px;
+    background-color: #4285f4;
+    background-size: 18px;
+    border: none;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+input[type="text"] {
+    border: solid 1px #D9D9D9;
+    height: 40px;
+    width: 630px;
+}
+
+.intro {
+    color: #006621;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+#lougle {
+    display: inline-block;
+}
+
+main {
+    color: #222;
+    line-height: 22px;
+}
+
+#main {
+    float: left;
+    width: 64%;
 }
 
 main a{
@@ -65,57 +174,73 @@ main a:visited {
     color: #660099;
 }
 
+main p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
 nav li, footer li {
     display: inline;
     padding: 10px;
 }
 
-main {
-    color: #222;
-    line-height: 22px;
-}
-
-main p {
-    font-size: 15px;
-}
-
 nav li a, footer li a {
-     text-decoration: none;
      color: #545454;
+     text-decoration: none;
 }
 
 nav li a:hover{
     color: #222222;
 }
 
-    footer li a:hover {
-    color: #222222 ;
+#navigation {
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
-footer, li {
-    font-family: Arial;
+ol {
+    list-style-type: none;
 }
 
-h3 {
-    font-weight: normal;
-    font-family: Arial;
-    font-size: 20px;
-    margin: 1.4px;
+ol a {
+    text-decoration: none;    
+}
+
+ol a:hover {
+    text-decoration: underline;
 }
 
 p {
     margin: 1.4px;
 }
 
-footer p a {
-    text-decoration: none;
-    color: #1A0DAB;
+#profilephoto {
+    display: inline-block;
 }
 
-footer p a:hover {
-    text-decoration: underline;
+#searchbar {
+   display: inline-block;
 }
 
-footer p a:visited {
-    color: #660099;
+#searchbutton {
+    display: inline-block;
+}
+
+.selected {
+    border-bottom: solid 5px;
+    color: #4285F4;
+    font-weight: bold;
+}
+
+.selected a {
+    color: #4285F4;
+}
+
+.selected:hover {
+    color: #4285F4;
+}
+
+.subject {
+    font-family: Arial;
+    font-weight: bold;
 }
