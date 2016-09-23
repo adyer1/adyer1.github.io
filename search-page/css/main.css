@@ -25,7 +25,8 @@ aside h4 {
     color: #777;
     font-family: Arial;
     font-size: 14px;
-    font-weight: Normal;
+    font-weight: normal;
+    padding-bottom: 2px;
 }
 
 aside p {
