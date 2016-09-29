@@ -8,7 +8,7 @@ aside {
     background-color: white;
     border: solid 2px #EBEBEB;
     float: right;
-    width: 358px;  
+    width: 349px;  
 }
 aside h1 {
     color: #222;
@@ -116,12 +116,12 @@ h3 {
 }
 #imageone {
     display: inline-block;
-    /*margin: -1px;*/
+    margin: -1px;
     width: 40%;
 }
 #imagetwo {
     display: inline-block;
-    /*margin: -2px;*/
+    margin: -2px;
     width: 40%;
 }
 input[type="submit"]{
