@@ -5,6 +5,7 @@ align {
     margin: 0px;
 }
 aside {
+    background-color: white;
     border: solid 2px #EBEBEB;
     float: right;
     width: 349px;  
