@@ -26,9 +26,6 @@ aside h4 {
     font-weight: normal;
     padding-bottom: 2px;
 }
-aside img {
-    
-}
 aside p {
     color: #222;
     font-family: 'Open Sans', sans-serif;
@@ -154,10 +151,8 @@ input[type="text"] {
 }
 main {
     color: #222;
-    line-height: 22px;
-}
-#main {
     float: left;
+    line-height: 22px;
     width: 64%;
 }
 main a{
@@ -233,6 +228,7 @@ p {
 #sidebar{
     float: right;
     padding-left: 10px;
+    padding-right: 10px;
     width: 30%;
 }
 .subject {
