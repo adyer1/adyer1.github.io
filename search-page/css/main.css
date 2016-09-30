@@ -15,20 +15,20 @@ aside h1 {
     font-family: Arial;
     font-size: 30px;
     font-weight: Normal;
-    padding-bottom: -4px;
-    padding-top: -2px;
+    line-height: 5px;
 }
 aside h4 {
     color: #777;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
+    line-height: 7px;
     padding-bottom: 2px;
 }
 aside p {
     color: #222;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     padding-bottom: 10px;
 }
 aside p a {
@@ -84,6 +84,7 @@ footer li a:hover {
     color: #222222;
 }
 footer p {
+    font-size: 13px;
     padding-left: 48px;
 }
 footer p a {
@@ -142,12 +143,14 @@ input[type="text"] {
 }
 .location {
     color: #aaa;
+    font-size: 13px;
 }
 #lougle {
     float: left;
-    height: 38px;
+    height: 36px;
     padding-right: 20px;
-    width: 109px;
+    padding-top: 5px;
+    width: 96px;
 }
 main {
     color: #222;
@@ -171,7 +174,7 @@ main p {
 }
 nav li, footer li {
     display: inline;
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px;
 }
 nav li a, footer li a {
@@ -200,8 +203,8 @@ p {
 #profilephoto {
     border-radius: 50%;
     float: right;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 .results {
     color: #808080;
