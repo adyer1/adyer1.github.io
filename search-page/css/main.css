@@ -8,7 +8,7 @@ aside {
     background-color: white;
     border: solid 1px #EBEBEB;
     float: right;
-    width: 349px;  
+    width: 351px;  
 }
 aside h1 {
     color: #222;
@@ -101,7 +101,7 @@ footer p a:visited {
 }
 h3 {
     font-family: Arial;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     margin: 1.4px;
 }
@@ -116,13 +116,11 @@ h3 {
 }
 #imageone {
     display: inline-block;
-    margin: -1px;
-    width: 40%;
+    margin: 0px;
 }
 #imagetwo {
     display: inline-block;
-    margin: -2px;
-    width: 40%;
+    margin-left: -3px;
 }
 input[type="submit"]{
     background: url(https://s3.amazonaws.com/pratt-web-2/google_mag_glass.png) no-repeat 12px;
@@ -137,7 +135,10 @@ input[type="text"] {
     border: solid 1px #D9D9D9;
     color: #006621;
     height: 40px;
-    width: 630px;
+    width: 590px;
+}
+.intro {
+    color: #006621;
 }
 .location {
     color: #aaa;
@@ -162,13 +163,15 @@ main a:visited {
 }
 main p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
+    line-height: 18px;
 }
 #mainbody {
     margin-left: 85px;
 }
 nav li, footer li {
     display: inline;
+    font-size: 14px;
     padding: 10px;
 }
 nav li a, footer li a {
