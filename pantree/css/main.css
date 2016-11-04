@@ -9,7 +9,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
   .clearfix:after {
   content:" ";
   display:table;
@@ -19,20 +18,29 @@ body {
   margin: 0px;
 }
 #calltoaction {
-  background-color: #62CE9C;
+  background-image: url("calltoactionbackground.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 400px;
   padding-bottom: 100px;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 100px;
   text-align: center;
+  width: 100%;
 }
 
 #functions {
   background-color: #FFFFFF;
+  display: inline block;
+  height: 1500px;
+  margin: 0px;
   padding-bottom: 100px;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 100px;
+  width: 100%;
 }
 #functions p {
   color: #62CE9C;
@@ -41,11 +49,13 @@ h1 {
   color: #FFFFFF;
   font-family: 'gilroysemibold';
   font-size: 36px;
+  font-weight: normal;
 }
 h2 {
   color: #62CE9C;
   font-family: 'gilroysemibold';
   font-size: 30px;
+  font-weight: normal;
 }
 h3 {
   color: #62CE9C;
@@ -57,27 +67,47 @@ h3 {
 }
 #hero {
   background-color: #62CE9C;
+  display: inline-block;
+  height: 600px;
+  margin: 0px;
   padding-bottom: 100px;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 100px;
+  width: 100%;
 }
 #herotext {
   float: left;
 }
 #hero img {
-  float: right;
+  float: left;
 }
 p {
   color: #FFFFFF;
   font-family: Open Sans;
   font-size: 18px;
 }
+#savefoodimage {
+  float: right;
+}
 #savefoodtext {
+  float: right;
   height: 300px;
-  width: 330px; 
+  width: 290px; 
+}
+#savemoneyimage {
+  float: left;
 }
 #savemoneytext {
+  float: left;
+  height: 300px;
+  width: 330px;
+}
+#savetimeimage {
+  float: left;
+}
+#savetimetext {
+  float: left;
   height: 300px;
   width: 330px;
 }
@@ -109,6 +139,12 @@ p {
   margin: auto;
   width: 750px;
 }
+#tweetone img {
+  float: left;
+}
+#tweetonetext {
+  float: left;
+}
 #tweettwo {
   background-color: #FFFFFF;
   border-radius: 25px;
@@ -128,15 +164,19 @@ ul {
 }
 #vocational {
   background-color: #62CE9C;
+  display: inline-block;
+  height: 900px;
   padding-bottom: 100px;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 100px;
+  width: 100%;
 }
 #vocational h1 {
   text-align: center;
 }
 #vocational p {
   color: #62CE9C;
+  display: inline-block;
   margin-left: 20px;
 }
