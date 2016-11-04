@@ -1,0 +1,128 @@
+/*make inline display block so you can add height to it*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+#calltoaction {
+  background-color: #62CE9C;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 100px;
+  text-align: center;
+}
+@font-face {
+    font-family: 'gilroysemibold';
+    src: typefaces/radomir_tinkov_-_gilroy-semibold-webfont.woff2('radomir_tinkov_-_gilroy-semibold-webfont.woff2') format('woff2'),
+         typefaces/radomir_tinkov_-_gilroy-semibold-webfont.woff('radomir_tinkov_-_gilroy-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#functions {
+  background-color: #FFFFFF;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 100px;
+}
+#functions p {
+  color: #62CE9C;
+}
+h1 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 36px;
+}
+h2 {
+  color: #62CE9C;
+  font-family: Open Sans;
+  font-size: 30px;
+}
+h3 {
+  color: #62CE9C;
+  font-family: Open Sans;
+  font-size: 18px;
+}
+.hashtag {
+  color: #28C787;
+}
+#hero {
+  background-color: #62CE9C;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 100px;
+}
+#herotext {
+  float: left;
+}
+#hero img {
+  float: right;
+}
+p {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 18px;
+}
+#searchbar {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  height: 40px;
+  padding-left: 10px;
+  width: 300px;
+}
+#searchbutton {
+  background-color: #28C787;
+  border: none;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 18px;
+  height: 40px;
+  width: 180px;
+}
+#searchbutton:hover {
+  background-color: #00BE8B;
+}
+#tweetone {
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  height: 108px;
+  margin: auto;
+  width: 750px;
+}
+#tweettwo {
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  height: 108px;
+  margin: auto;
+  width: 750px;
+}
+#tweetthree {
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  height: 108px;
+  margin: auto;
+  width: 750px;
+}
+ul {
+  list-style-type: none;
+}
+#vocational {
+  background-color: #62CE9C;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 100px;
+}
+#vocational h1 {
+  text-align: center;
+}
+#vocational p {
+  color: #62CE9C;
+  margin-left: 20px;
+}
