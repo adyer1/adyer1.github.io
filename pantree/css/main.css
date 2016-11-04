@@ -1,7 +1,19 @@
 /*make inline display block so you can add height to it*/
-
 * {
   box-sizing: border-box;
+}
+@font-face {
+    font-family: 'gilroysemibold';
+    src: url('radomir_tinkov_-_gilroy-semibold-webfont.woff2') format('woff2'),
+         url('radomir_tinkov_-_gilroy-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  .clearfix:after {
+  content:" ";
+  display:table;
+  clear:both;
 }
 body {
   margin: 0px;
@@ -14,13 +26,7 @@ body {
   padding-top: 100px;
   text-align: center;
 }
-/*@font-face {
-    font-family: 'gilroysemibold';
-    src: typefaces/radomir_tinkov_-_gilroy-semibold-webfont.woff2('radomir_tinkov_-_gilroy-semibold-webfont.woff2') format('woff2'),
-         typefaces/radomir_tinkov_-_gilroy-semibold-webfont.woff('radomir_tinkov_-_gilroy-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-} */
+
 #functions {
   background-color: #FFFFFF;
   padding-bottom: 100px;
@@ -33,12 +39,12 @@ body {
 }
 h1 {
   color: #FFFFFF;
-  font-family: Open Sans;
+  font-family: 'gilroysemibold';
   font-size: 36px;
 }
 h2 {
   color: #62CE9C;
-  font-family: Open Sans;
+  font-family: 'gilroysemibold';
   font-size: 30px;
 }
 h3 {
@@ -66,6 +72,14 @@ p {
   color: #FFFFFF;
   font-family: Open Sans;
   font-size: 18px;
+}
+#savefoodtext {
+  height: 300px;
+  width: 330px; 
+}
+#savemoneytext {
+  height: 300px;
+  width: 330px;
 }
 #searchbar {
   background-color: #FFFFFF;
