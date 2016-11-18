@@ -8,11 +8,6 @@
     font-weight: normal;
     font-style: normal;
 }
-  .clearfix:after {
-  content:" ";
-  display:table;
-  clear:both;
-}
 body {
   margin: 0px;
 }
@@ -34,6 +29,19 @@ body {
   padding-top: 25px;
   padding-bottom: 55px;
   width: 500px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
 }
 #functions {
   background-color: #FFFFFF;
@@ -67,7 +75,7 @@ h3 {
 }
 #hero {
   background-color: #62CE9C;
-  height: 600px;
+  height: 650px;
   float: left;
   margin: 0px;
   padding-bottom: 100px;
@@ -75,6 +83,10 @@ h3 {
   padding-right: 120px;
   padding-top: 100px;
   width: 100%;
+}
+#herocontent {
+  margin: auto;
+  width: 900px;
 }
 #herotext {
   float: left;
