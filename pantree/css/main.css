@@ -224,14 +224,12 @@ p {
 }
 #tweetone img {
   float: left;
-  height: 150px;
   padding-top: 10px;
-  width: 150px;
 }
 #tweetonetext {
   float: left;
   padding-left: 15px;
-  width: 450px;
+  width: 400px;
 }
 #tweettwo {
   background-color: #FFFFFF;
@@ -247,7 +245,7 @@ p {
 }
 #tweettwo img {
   float: left;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 #tweettwotext {
   float: left;
@@ -268,12 +266,13 @@ p {
 }
 #tweetthree img {
   float: left;
-  padding-top: 10px;
+  height: 140px;
+  width: 140px;
 }
 #tweetthreetext {
   float: left;
   padding-left: 15px;
-  width: 450px;
+  width: 400px;
 }
 ul {
   list-style-type: none;
