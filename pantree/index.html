@@ -3,6 +3,7 @@
   <head>
     <link href="css/main.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
   </head>
   <body>
@@ -11,9 +12,11 @@
         <div id="herotext">
           <h1>Make the Most of your Food With Pantree</h1>
           <p>Pantree for iOS lets you search for recipes based on the ingredients you already have in your home.</p>
-          <form id="form">
-            <input id="searchbar" type="text" placeholder="yourname@email.com"/>
-            <input id="searchbutton" type="submit" value="Get Early Access" />
+          <form id="subscribe" method="post" action="https://web-2-product-page.herokuapp.com/subscribers">
+            <input id="searchbar" type="text" name="email" placeholder="yourname@email.com">
+            <input id="searchbutton" type="submit" value="Get Early Access">
+            <p class="confirmation">Thank you!</p>
+            <p class="error-message">Incorrect E-mail Address.</p>
           </form>
         </div>
         <img src="images/phone.png"/>
@@ -82,9 +85,11 @@
     <div id="calltoaction">
       <h1>Manage your Kitchen, Effortlessly</h1>
       <p>Pantree makes it easy to find recipes, keep track of food, and organize your kitchen.</p>
-      <form id="form">
-        <input id="searchbar" type="text" placeholder="yourname@email.com"/>
-        <input id="searchbutton" type="submit" value="Get Early Access" />
+      <form id="subscribe" method="post" action="https://web-2-product-page.herokuapp.com/subscribers">
+        <input id="searchbar" type="text" name="email" placeholder="yourname@email.com">
+        <input id="searchbutton" type="submit" value="Get Early Access">
+        <p class="confirmation">Thank you!</p>
+        <p class="error-message">Incorrect E-mail Address.</p>
       </form>
     </div>
   </body>
