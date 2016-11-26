@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: 'gilroysemibold';
+    src: url('radomir_tinkov_-_gilroy-semibold-webfont.woff2') format('woff2'),
+         url('radomir_tinkov_-_gilroy-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: white;
+}
+body {
+  background-color: blue;
+  margin-left: 50px;
+}
+h1 {
+  color: white;
+  font-family: 'gilroysemibold';
+  font-size: 103px;
+}
+h2, h3 {
+  color: white;
+  font-family: 'gilroysemibold';
+}
+hr {
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+li {
+  color: white;
+  font-family: Helvetica;  
+}
+p {
+  color: white;
+  font-family: Helvetica;
+  line-height: 4px;
+  margin-left: 20px;
+}
