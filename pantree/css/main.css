@@ -48,6 +48,7 @@ body {
 }
 .error-message {
   display: none;
+  float: left;
 }
 #functions {
   background-color: #FFFFFF;
