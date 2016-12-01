@@ -16,7 +16,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   display: inline-block;
-  height: 500px;
+  height: 532px;
   padding-bottom: 100px;
   padding-left: 70px;
   padding-right: 70px;
@@ -41,14 +41,11 @@ body {
 }
 
 .clearfix {
-  zoom: 1; /* ie 6/7 */
+  zoom: 1; 
 }
 .confirmation {
   display: none;
-}
-.error-message {
-  display: none;
-  float: left;
+  height: 0px;
 }
 #functions {
   background-color: #FFFFFF;
@@ -78,7 +75,7 @@ h3 {
   font-family: Open Sans;
   font-size: 18px;
   line-height: 10px;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 .hashtag {
   color: 	#00AF78;
@@ -115,10 +112,6 @@ h3 {
   width: 500px;
 }
 input, select, textarea{
-  color: #62CE9C;
-}
-
-textarea:focus, input:focus {
   color: #62CE9C;
 }
 input::-webkit-input-placeholder {
@@ -211,6 +204,9 @@ p {
 }
 #searchbutton:hover {
   background-color: #00BE8B;
+}
+textarea:focus, input:focus {
+  color: #62CE9C;
 }
 #tweetone {
   background-color: #FFFFFF;
