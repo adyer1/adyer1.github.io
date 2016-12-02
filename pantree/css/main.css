@@ -3,10 +3,10 @@
 }
 @font-face {
     font-family: 'gilroysemibold';
+    font-style: normal;
+    font-weight: normal;
     src: url('radomir_tinkov_-_gilroy-semibold-webfont.woff2') format('woff2'),
          url('radomir_tinkov_-_gilroy-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 }
 body {
   margin: 0px;
@@ -14,15 +14,14 @@ body {
 #calltoaction {
   background-image: url("calltoactionbackground.jpg");
   background-size: 100%;
-  background-repeat: no-repeat;
   display: inline-block;
   height: 532px;
+  min-width: 1200px;
   padding-bottom: 100px;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 100px;
   text-align: center;
-  min-width: 1200px;
   width: 100%;
 }
 #calltoaction p {
@@ -31,18 +30,15 @@ body {
   padding-bottom: 55px;
   width: 500px;
 }
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
+.clearfix {
+  zoom: 1; 
 }
-
 .clearfix:after {
   clear: both;
 }
-
-.clearfix {
-  zoom: 1; 
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
 }
 .confirmation {
   display: none;
@@ -53,6 +49,7 @@ body {
   display: block;
   height: 1080px;
   margin: auto;
+  min-width: 1200px;
   padding-top: 100px;
   width: 100%;
 }
@@ -86,19 +83,12 @@ h3 {
   background-color: #62CE9C;
   height: 650px;
   margin: 0px;
+  min-width: 1200px;
   padding-bottom: 100px;
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 100px;
   width: 100%;
-}
-#herocontent {
-  margin: auto;
-  width: 900px;
-}
-#herotext {
-  float: left;
-  width: 600px;
 }
 #hero h1 {
   width: 470px;
@@ -108,27 +98,32 @@ h3 {
   float: right;
 }
 #hero p {
-  padding-top: 30px;
   padding-bottom: 40px;
+  padding-top: 30px;
   width: 500px;
 }
-input, select, textarea{
-  color: #62CE9C;
+#herocontent {
+  margin: auto;
+  width: 900px;
+}
+#herotext {
+  float: left;
+  width: 600px;
+}
+input:-moz-placeholder {
+  color: #62CE9C !important;  
+}
+input:-ms-input-placeholder {  
+  color: #62CE9C !important;  
+}
+input::-moz-placeholder {
+  color: #62CE9C !important;  
 }
 input::-webkit-input-placeholder {
   color: #62CE9C !important;
 }
- 
-input:-moz-placeholder { /* Firefox 18- */
-  color: #62CE9C !important;  
-}
- 
-input::-moz-placeholder {  /* Firefox 19+ */
-  color: #62CE9C !important;  
-}
- 
-input:-ms-input-placeholder {  
-  color: #62CE9C !important;  
+input, select, textarea{
+  color: #62CE9C;
 }
 p {
   color: #FFFFFF;
@@ -194,7 +189,7 @@ p {
   width: 300px;
 }
 #searchbutton {
-  background-color: #28C787;
+  background-color: #00BE8B;
   border: none;
   border-radius: 8px;
   color: #FFFFFF;
@@ -204,7 +199,7 @@ p {
   width: 180px;
 }
 #searchbutton:hover {
-  background-color: #00BE8B;
+  background-color: #28B787;
 }
 textarea:focus, input:focus {
   color: #62CE9C;
@@ -291,6 +286,7 @@ ul {
   background-color: #62CE9C;
   display: inline-block;
   height: 1120px;
+  min-width: 1200px;
   padding-bottom: 100px;
   padding-left: 70px;
   padding-right: 70px;
@@ -299,8 +295,8 @@ ul {
 }
 #vocational h1 {
   margin: auto;
-  text-align: center;
   margin-bottom: 0px;
+  text-align: center;
   width: 500px;
 }
 #vocational p {
