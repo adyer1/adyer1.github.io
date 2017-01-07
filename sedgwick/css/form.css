@@ -78,3 +78,10 @@ p {
 #signatures {
   width: 750px;
 }
+#left {
+  text-align: left;
+  margin-bottom: 0px;
+}
+#right {
+  text-align: right;
+}
