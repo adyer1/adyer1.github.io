@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: Gilroy;
+    src: typefaces/gilroy-bold.ttf (gilroy-bold.ttf);
+}
+@font-face {
+  font-family: Gilroy
+  src: typefaces/gilroy-black.ttf (gilroy-black.ttf)
+}
+a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+body {
+  align: center;
+  margin: auto;
+  width: 760px;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: Gilroy-Bold;
+  font-size: 77px;
+  height: 135px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding-top: 20px;
+  width: 760px;
+}
+.button:hover {
+  background-color: gray;
+}
+#fifteen {
+  color: white;
+  font-family: gilroy-black;
+  font-size: 230px;
+  line-height: 230px;
+  padding-left: 70px;
+  position: absolute;
+  text-align: left;
+  top: -120px;
+  width: 700px;
+}
+hr {
+  border: 0;
+  border-bottom: 1px solid black;
+  border-top: 12px solid black;
+  width: 760px;
+}
+h3 {
+  font-family: Gilroy;
+  font-size: 95px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.leftcolumn {
+  float: left;
+  width: 365px;
+}
+.image {
+  align: center;
+  position: relative;
+  width: 760px;
+}
+img {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 760px;
+}
+p {
+  font-family: Gilroy;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.paragraphs {
+  align: center;
+  width: 760px;
+}
+.rightcolumn {
+  float: right;
+  width: 365px;
+}
+#twenty {
+  color: white;
+  font-family: gilroy-black;
+  font-size: 230px;
+  line-height: 230px;
+  padding-right: 20px;
+  position: absolute;
+  text-align: right;
+  top: 70px;
+  width: 700px;
+}
+#left {
+  text-align: left;
+  margin-bottom: 0px;
+}
+#right {
+  text-align: right;
+}
